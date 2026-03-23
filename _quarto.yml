@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Technical Nonsense"
+  title: "Dhruv S. Kannan"
   navbar:
     left:
       - href: index.qmd
