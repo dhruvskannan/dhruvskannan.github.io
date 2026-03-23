@@ -14,7 +14,7 @@ about:
       href: https://linkedin.com/in/dhruvkannan
     - icon: briefcase
       text: Vita
-      href: /Users/dsk/dsk_resume.pdf
+      href: media/dsk_resume.pdf
 
 ---
 
