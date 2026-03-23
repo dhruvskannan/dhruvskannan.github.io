@@ -3,20 +3,27 @@ project:
   output-dir: docs
 
 website:
-  title: "Dhruv S. Kannan"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+    right:
+      - icon: briefcase
+        text: CV
+        href: media/dsk_resume.pdf
+
 
 format:
   html:
     theme:
       - cosmo
-      - brand
     css: styles.css
     toc: true
+    include-in-header: 
+      text: | 
+        <meta name="robots" content="noindex,nofollow"/>
+
 
 
 
