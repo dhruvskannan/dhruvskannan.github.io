@@ -8,6 +8,10 @@ $purple: #9158A2;
 $orange: #ff6a00;
 $black: #000000;
 
+// Fonts (Serif: Quattrocentro, Sans: Poppins)
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
 // Base document colors
 $navbar-bg: $dark-green; // navbar
 $navbar-fg: $cream; // navbar foreground elements
@@ -15,8 +19,19 @@ $navbar-hl: $black; // highlight color when hovering over navbar links
 $body-bg: $cream; // page background 
 $body-color: $gray; // page text 
 $footer-bg: $cream; // footer 
-$link-color: $purple; // hyperlinks 
+$link-color: $orange; // hyperlinks 
 
 // Inline code
 $code-bg: $cream; // inline code background color
 $code-color: $purple; // inline code text color
+
+/*-- scss:rules --*/
+h1 {
+    font-family: Lato;
+    font-weight: 500;
+}
+
+title {
+    font-family: Lato;
+    font-weight: 400;
+}

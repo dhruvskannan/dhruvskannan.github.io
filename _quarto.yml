@@ -8,7 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - writings.qmd
     right:
       - icon: briefcase
         text: CV
@@ -17,7 +17,7 @@ website:
 format:
   html:
     theme: styles.scss
-    toc: true
+    mainfont: Lato
     page-layout: full
     include-in-header: 
       text: | 

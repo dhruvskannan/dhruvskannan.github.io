@@ -1,14 +1,7 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Under Construction",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "home.html",
+    "href": "home.html",
     "title": "Dhruv S. Kannan",
     "section": "",
     "text": "I study political economy and noodle with technology in my free time.\nThis Quarto site is under active development. I am not normally a dog."
