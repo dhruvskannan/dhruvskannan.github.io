@@ -14,13 +14,11 @@ website:
         text: CV
         href: media/dsk_resume.pdf
 
-
 format:
   html:
-    theme:
-      - cosmo
-    css: styles.css
+    theme: styles.scss
     toc: true
+    page-layout: full
     include-in-header: 
       text: | 
         <meta name="robots" content="noindex,nofollow"/>
