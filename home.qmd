@@ -4,7 +4,7 @@ about:
     template: trestles
     image: media/interim.jpeg
     image-shape: rounded
-    image-width: 17em
+    image-width: 19em
     links:
     - icon: envelope
       text: Mail

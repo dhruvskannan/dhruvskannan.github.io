@@ -12,6 +12,10 @@ $black: #000000;
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 
+// Font Variable Definitions
+$lato: "Lato", sans-serif; 
+$Cormorant_Garamond: "Cormorant Garamond", serif
+
 // Base document colors
 $navbar-bg: $dark-green; // navbar
 $navbar-fg: $cream; // navbar foreground elements
@@ -27,11 +31,11 @@ $code-color: $purple; // inline code text color
 
 /*-- scss:rules --*/
 h1 {
-    font-family: Lato;
-    font-weight: 500;
+    font-family: $Cormorant_Garamond;
+    font-weight: 600;
 }
 
 title {
-    font-family: Lato;
+    font-family: Cormorant;
     font-weight: 400;
 }
