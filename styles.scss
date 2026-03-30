@@ -14,7 +14,7 @@ $black: #000000;
 
 // Font Variable Definitions
 $lato: "Lato", sans-serif; 
-$Cormorant_Garamond: "Cormorant Garamond", serif
+$Cormorant_Garamond: "Cormorant Garamond", serif;
 
 // Base document colors
 $navbar-bg: $dark-green; // navbar
@@ -36,6 +36,6 @@ h1 {
 }
 
 title {
-    font-family: Cormorant;
+    font-family: $Cormorant_Garamond;
     font-weight: 400;
 }
