@@ -12,9 +12,6 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com/in/dhruvkannan
-    - icon: briefcase
-      text: Vita
-      href: /media/dsk_resume.pdf
 ---
 
 I study political economy and noodle with technology in my free time. 
