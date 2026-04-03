@@ -7,7 +7,7 @@ website:
   navbar:
     search: false # search bar disabled
     left:
-      - href: home.qmd
+      - href: index.qmd
         text: Home
       - href: writings.qmd
         text: Writings
