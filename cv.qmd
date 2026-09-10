@@ -3,4 +3,4 @@ title: "CV"
 ---
 
 
-{{< pdf website_resume.pdf renderer=pdfjs width=100% >}}
+{{< pdf media/website_resume.pdf renderer=pdfjs width=80% >}}

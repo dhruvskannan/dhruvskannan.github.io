@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  resources: website_resume.pdf
+  resources: media/website_resume.pdf
 
 website:
   favicon: media/favicon.ico

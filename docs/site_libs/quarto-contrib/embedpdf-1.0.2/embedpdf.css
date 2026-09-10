@@ -1,7 +1,7 @@
 /* embedpdf extension styles */
 
 .embedpdf {
-  margin: 1rem 0;
+  margin: 1rem auto;
 }
 
 .embedpdf.embedpdf-pdfjs {
