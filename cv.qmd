@@ -1,0 +1,6 @@
+---
+title: "CV"
+---
+
+
+{{< pdf website_resume.pdf renderer=pdfjs width=100% >}}

@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  resources: website_resume.pdf
 
 website:
   favicon: media/favicon.ico
@@ -12,9 +13,7 @@ website:
       - href: writings.qmd
         text: Writings
       - text: CV
-        href: media/website_resume.pdf
-      - text: Recipes
-        href: https://dhruvskannan.github.io/dsk-recipe-library/
+        href: cv.qmd
   page-footer:
     right: This website is inspired by [Samantha Csik's](https://ucsb-meds.github.io/creating-quarto-websites/){target=_blank} guide and was built with [Quarto](https://quarto.org/){target=_blank}.
 
