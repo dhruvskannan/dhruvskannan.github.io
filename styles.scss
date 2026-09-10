@@ -1,0 +1,54 @@
+/*-- scss:defaults --*/
+// Colors
+$dark-green: #858E79;
+$light-green: #D1D9CE;
+$cream: #FDFBF7;
+$gray: #64605f;
+$purple: #9158A2;
+$dark_orange: #BF5E28;
+$brown: #F2DDB8;
+$black: #000000;
+
+// Fonts (Serif: Quattrocentro, Sans: Poppins)
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Font Variable Definitions
+$lato: "Lato", sans-serif; 
+$Cormorant_Garamond: "Cormorant Garamond", serif;
+$r: "Rokkitt", serif;
+
+// Base document colors
+$navbar-bg: $dark-green; // navbar
+$navbar-fg: $cream; // navbar foreground elements
+$navbar-hl: $brown; // highlight color when hovering over navbar links
+$body-bg: $cream; // page background 
+$body-color: $gray; // page text 
+$footer-bg: $cream; // footer 
+$link-color: $dark_orange; // hyperlinks 
+
+// Inline code
+$code-bg: $cream; // inline code background color
+$code-color: $purple; // inline code text color
+
+/*-- scss:rules --*/
+h1 {
+    font-family: $r;
+    font-weight: 400;
+}
+
+header {
+    font-family: $r
+}
+
+@media (max-width: 768px) {
+    #quarto-content img {
+        margin: 2em;
+    }
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    font-weight: 700;
+}
