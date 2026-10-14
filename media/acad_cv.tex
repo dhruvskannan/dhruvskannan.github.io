@@ -1,0 +1,95 @@
+% !TEX program = xelatex
+% !BIB program = biber
+\documentclass[11pt]{article}
+\usepackage[style=authoryear]{biblatex}
+\addbibresource{acad_cv.bib}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage[margin=0.6in, a4paper]{geometry}
+\setcounter{secnumdepth}{0}
+\usepackage{titlesec, fontspec} 
+
+\titlespacing{\section}{0pt}{12pt}{6pt}
+\titlespacing{\subsection}{0pt}{8pt}{2pt}
+
+% FIXED: Changed \titrule to \titlerule
+\titleformat{\section}{\large\bfseries\uppercase}{}{0pt}{}[\titlerule]
+\titleformat{\subsection}{\large\bfseries}{}{0pt}{}
+
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=2pt, left=0pt .. \parindent}
+\pagestyle{empty}
+\begin{document}
+
+\begin{center}
+	\begin{minipage}{0.5\textwidth}
+		{\Huge\bfseries
+			Dhruv S. Kannan
+		} \\ \medskip
+		Updated 09/2026
+	\end{minipage} \hfill
+	\begin{minipage}{0.4\textwidth}
+		\raggedleft
+		Email: \href{mailto:dhruv.kann@gmail.com}{dhruv.kann@gmail.com}
+	\end{minipage}
+\end{center}
+
+\section{Education}
+\subsection{UC San Diego \texorpdfstring{$|$}{|} B.S., Mathematics-Economics (\textit{intended}), Political Science}
+\noindent\textit{Jun.\ 2028}
+
+\medskip
+\noindent \textit{Relevant Coursework:} Econometrics, Linear Algebra, Intermediate Microeconomics, Data Analytics for the Social Sciences, Data Science and Causal Inference \smallskip
+
+\noindent \textit{Planned Coursework:} Real Analysis, Probability Theory, Mathematical Statistics, Numerical Optimization, Differential Equations
+
+\section{Research Experience}
+
+\subsection{Research Assistant}
+\noindent\textit{Apr.\ 2026 -- Present} \\
+\noindent{\itshape School of Global Policy and Strategy, UC San Diego \hfill La Jolla, CA} \\
+\noindent Supervisors: Profs. Gaurav Khanna and Karthik Muralidharan
+\begin{itemize}
+\item Assist with econometric analysis and data visualization in R, including regression discontinuity and ordinary least-squares estimation across program-by-category admission cutoffs
+\item Perform reviews of educational economics (value-added) literature
+\end{itemize}
+
+\subsection{Research Assistant}
+\noindent\textit{Jan.\ 2026 -- Jun. 2026} \\
+\noindent{\itshape Department of Political Science, UC San Diego \hfill La Jolla, CA} \\
+\noindent Supervisor: Tereza Petrovičová, PhD Candidate
+\begin{itemize}
+\item Compiled and analyzed solar and wind energy zoning regulations across multiple states, supporting comparative clean energy policy research
+\item Developed structured county-level dataset and coding frameworks to enable policy evaluation and cross-jurisdictional analysis
+\item Synthesized complex regulatory information into accessible research summaries
+\end{itemize}
+
+\subsection{Research Assistant}
+\noindent\textit{Jun.\ 2025 -- Sep. 2025} \\
+\noindent{\itshape Travers Department of Political Science, UC Berkeley \hfill Berkeley, CA} \\
+\noindent Supervisor: Prof. Gabriel Lenz
+\begin{itemize}
+\item Compiled and analyzed historical datasets using \texttt{tidyllm} package in R to support research on social policy and racial violence
+\item Automated data extraction and cleaning of archival newspaper records using Gemini LLM API to create structured JSON
+\end{itemize}
+
+\section{Research in Progress}
+
+\noindent \fullcite{dsk}
+
+\section{Policy Experience}
+
+\subsection{Public Policy Intern}
+\noindent\textit{Jun.\ 2026 -- Aug. 2026} \\
+\noindent{\itshape Ava Community Energy Authority \hfill Oakland, CA}
+\begin{itemize}
+\item Developed fixed-effects regression modeling of power input instability in California energy market long-term forecasting, findings incorporated into reply comments in active CPUC proceeding
+\end{itemize}
+
+\section{Skills \& Languages}
+\begin{description}[itemsep=0pt]
+	\item[Technical \& Data] Stata, R (\texttt{tidyverse}, \texttt{ggplot}), \TeX, Git, dataset compilation and cleaning, visualization, causal inference
+	\item[Languages] Tamil (intermediate), Japanese (intermediate), Spanish (conversational)
+\end{description}
+
+\end{document}
