@@ -15,7 +15,7 @@ website:
       - text: CV
         href: cv.qmd
   page-footer:
-    right: This website is inspired by [Samantha Csik's](https://ucsb-meds.github.io/creating-quarto-websites/){target=_blank} guide and was built with [Quarto](https://quarto.org/){target=_blank}.
+    right: This website was inspired by [Sam Shanny-Csik's](https://ucsb-meds.github.io/creating-quarto-websites/){target=_blank} guide and was built with [Quarto](https://quarto.org/){target=_blank}.
 
 format:
   html:

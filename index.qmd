@@ -2,7 +2,7 @@
 title: "Dhruv S. Kannan"
 about:
     template: trestles
-    image: media/headshot.png
+    image: media/new_headshot.jpg
     image-shape: rectangle
     # image-width: 19em
     links:
@@ -14,6 +14,6 @@ about:
       href: https://linkedin.com/in/dhruvkannan
 ---
 
-I study political science and economics with interests in the political economy of security, especially as it pertains to mounting climate impacts in developing countries.
+I study political science and economics with interests in the political economy of security, especially as it pertains to mounting climate impacts in South Asia.
 
 I am not normally a Ducreux painting.
